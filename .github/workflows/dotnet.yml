@@ -5,7 +5,7 @@ name: .NET
 
 on:
   schedule:    
-    - cron: '50 22 * * *' # 22 is 10pm - 7 = 3 pm (mst)
+    - cron: '54 22 * * *' # 22 is 10pm - 7 = 3 pm (mst)
     
   push:
     branches: [ "main" ]
