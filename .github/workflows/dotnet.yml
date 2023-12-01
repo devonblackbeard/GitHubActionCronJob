@@ -5,9 +5,9 @@ name: .NET
 
 on:
   schedule:
-    - cron: '38 1 * * *'
-  # push:
-  #   branches: [ "main" ]
+    - cron: '43 1 * * *'
+  push:
+    branches: [ "main" ]
   # pull_request:
   #   branches: [ "main" ]
 
