@@ -5,7 +5,7 @@ name: .NET
 
 on:
   schedule:
-    - cron: '31 18 * * *'
+    - cron: '33 23 * * *'
   # push:
   #   branches: [ "main" ]
   # pull_request:
