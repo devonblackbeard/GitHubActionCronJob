@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 class Program
 {
-    static void Main()
+    static async Task Main()
     {
         // Scheduled Task Logic
         Console.Write("STARTING MAIN");
-        //await QueryApiAndSendEmail();
+        await QueryApiAndSendEmail();
 
         // Other cleanup or logging tasks if needed
     }
