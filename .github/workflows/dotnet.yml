@@ -4,8 +4,8 @@
 name: .NET
 
 on:
-  schedule:    
-    - cron: '10 24 * * *' # 23 is 11pm - 7 = 4 pm (mst)
+  schedule:
+    - cron: '10 24 * * *'
     
   push:
     branches: [ "main" ]
