@@ -9,6 +9,7 @@ class Program
     static async Task Main()
     {
         // Scheduled Task Logic
+        Console.Write("STARTING MAIN");
         await QueryApiAndSendEmail();
 
         // Other cleanup or logging tasks if needed
