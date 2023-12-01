@@ -4,9 +4,6 @@
 name: .NET
 
 on:
-  schedule:
-    - cron: '*/6 * * * *'  # Run every 6 minutes
-
   push:
     branches: [ "main" ]
   pull_request:
