@@ -5,7 +5,8 @@ name: .NET
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '30 14 * * *' # 7:30 MST
+    - cron: '30 22 * * *' # 3:30 MST #TODO: Dont check on weekends
   push:
     branches: [ "main" ]
   # pull_request:
